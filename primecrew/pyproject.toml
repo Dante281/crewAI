@@ -5,7 +5,9 @@ description = "PrimeCrew using crewAI"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
-    "crewai[tools]==1.7.0"
+    "crewai[tools]==1.7.0",
+    "fastapi>=0.124.2",
+    "litellm>=1.75.3",
 ]
 
 [project.scripts]
